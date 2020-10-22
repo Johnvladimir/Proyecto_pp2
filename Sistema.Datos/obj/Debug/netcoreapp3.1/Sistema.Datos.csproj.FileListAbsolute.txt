@@ -1,0 +1,6 @@
+C:\Users\john2\Desktop\PP2\ProyectoPP2\Sistema.Datos\bin\Debug\netcoreapp3.1\Sistema.Datos.deps.json
+C:\Users\john2\Desktop\PP2\ProyectoPP2\Sistema.Datos\bin\Debug\netcoreapp3.1\Sistema.Datos.dll
+C:\Users\john2\Desktop\PP2\ProyectoPP2\Sistema.Datos\obj\Debug\netcoreapp3.1\Sistema.Datos.csprojAssemblyReference.cache
+C:\Users\john2\Desktop\PP2\ProyectoPP2\Sistema.Datos\obj\Debug\netcoreapp3.1\Sistema.Datos.AssemblyInfoInputs.cache
+C:\Users\john2\Desktop\PP2\ProyectoPP2\Sistema.Datos\obj\Debug\netcoreapp3.1\Sistema.Datos.AssemblyInfo.cs
+C:\Users\john2\Desktop\PP2\ProyectoPP2\Sistema.Datos\bin\Debug\netcoreapp3.1\Sistema.Entidades.dll

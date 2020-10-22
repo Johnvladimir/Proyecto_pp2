@@ -1,0 +1,8 @@
+C:\Users\john2\Desktop\PP2\Proyecto PP2\Proyecto_Asp.Net_Core\Sistema.Entidades\bin\Debug\netcoreapp3.0\Sistema.Entidades.deps.json
+C:\Users\john2\Desktop\PP2\Proyecto PP2\Proyecto_Asp.Net_Core\Sistema.Entidades\bin\Debug\netcoreapp3.0\Sistema.Entidades.dll
+C:\Users\john2\Desktop\PP2\Proyecto PP2\Proyecto_Asp.Net_Core\Sistema.Entidades\bin\Debug\netcoreapp3.0\Sistema.Entidades.pdb
+C:\Users\john2\Desktop\PP2\Proyecto PP2\Proyecto_Asp.Net_Core\Sistema.Entidades\obj\Debug\netcoreapp3.0\Sistema.Entidades.AssemblyInfoInputs.cache
+C:\Users\john2\Desktop\PP2\Proyecto PP2\Proyecto_Asp.Net_Core\Sistema.Entidades\obj\Debug\netcoreapp3.0\Sistema.Entidades.AssemblyInfo.cs
+C:\Users\john2\Desktop\PP2\Proyecto PP2\Proyecto_Asp.Net_Core\Sistema.Entidades\obj\Debug\netcoreapp3.0\Sistema.Entidades.dll
+C:\Users\john2\Desktop\PP2\Proyecto PP2\Proyecto_Asp.Net_Core\Sistema.Entidades\obj\Debug\netcoreapp3.0\Sistema.Entidades.pdb
+C:\Users\john2\Desktop\PP2\Proyecto PP2\Proyecto_Asp.Net_Core\Sistema.Entidades\obj\Debug\netcoreapp3.0\Sistema.Entidades.csprojAssemblyReference.cache
