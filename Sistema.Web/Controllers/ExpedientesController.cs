@@ -23,7 +23,7 @@ namespace Sistema.Web.Controllers
         }
 
         // GET: api/Expedientes/Listar
-        [HttpGet]
+        [HttpGet("[action]")]
         public async Task<IEnumerable<ExpedienteViewModel>> Listar()
         {
             var expediente = await _context.Expedientes.ToListAsync();
@@ -37,7 +37,7 @@ namespace Sistema.Web.Controllers
                 fecha = c.fecha,
                 Detalles_Estudios = c.Detalles_Estudios,
                 Detalles_Examenes = c.Detalles_Examenes,
-                Receta = c.Receta,
+                Recetas = c.Recetas,
                 Costo_Cita = c.Costo_Cita
             });
         }
@@ -82,7 +82,7 @@ namespace Sistema.Web.Controllers
             expediente.fecha = model.fecha;
             expediente.Detalles_Estudios = model.Detalles_Estudios;
             expediente.Detalles_Examenes = model.Detalles_Examenes;
-            expediente.Receta = model.Receta;
+            expediente.Recetas = model.Recetas;
             expediente.Costo_Cita = model.Costo_Cita;
 
             try
@@ -98,7 +98,7 @@ namespace Sistema.Web.Controllers
         }
 
         // POST: api/Expedientes/Crear
-        [HttpPost]
+        [HttpPost("[action]")]
         public async Task<ActionResult> Crear([FromBody] CrearViewModel model)
         {
             if (!ModelState.IsValid)
@@ -117,7 +117,7 @@ namespace Sistema.Web.Controllers
                 fecha = model.fecha,
                 Detalles_Estudios = model.Detalles_Estudios,
                 Detalles_Examenes = model.Detalles_Examenes,
-                Receta = model.Receta,
+                Recetas = model.Recetas,
                 Costo_Cita = model.Costo_Cita,
                 
             };

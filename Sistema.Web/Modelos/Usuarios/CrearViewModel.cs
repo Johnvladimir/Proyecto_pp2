@@ -7,7 +7,7 @@ namespace Sistema.Web.Modelos.Usuarios
 {
     public class CrearViewModel
     {
-        public int idUsuario { get; set; }
+        public int idRol { get; set; }
         public string Nombre { get; set; }
         public string Telefono { get; set; }
         public string Correo { get; set; }

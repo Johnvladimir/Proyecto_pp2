@@ -23,7 +23,7 @@ namespace Sistema.Web.Controllers
         }
 
         // GET: api/Medicos/Listar
-        [HttpGet]
+        [HttpGet("[action]")]
         public async Task<IEnumerable<MedicoViewModel>> Listar()
         {
             var medico = await _context.Medicos.ToListAsync();
@@ -94,7 +94,7 @@ namespace Sistema.Web.Controllers
         }
 
         // POST: api/Medicos/Crear
-        [HttpPost]
+        [HttpPost("[action]")]
         public async Task<ActionResult> Crear([FromBody] CrearViewModel model)
         {
             if (!ModelState.IsValid)

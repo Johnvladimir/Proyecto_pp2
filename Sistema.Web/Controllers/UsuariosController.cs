@@ -23,7 +23,7 @@ namespace Sistema.Web.Controllers
         }
 
         // GET: api/Usuarios/Listar
-        [HttpGet]
+        [HttpGet("[action]")]
         public async Task<IEnumerable<UsuarioViewModel>> Listar()
         {
             var usuario = await _context.Usuarios.ToListAsync();
@@ -91,7 +91,7 @@ namespace Sistema.Web.Controllers
         }
 
         // POST: api/Usuarios/Crear
-        [HttpPost]
+        [HttpPost("[action]")]
         public async Task<ActionResult> Crear([FromBody] CrearViewModel model)
         {
             if (!ModelState.IsValid)
@@ -100,6 +100,7 @@ namespace Sistema.Web.Controllers
             }
             Usuario usuario = new Usuario
             {
+                idRol = model.idRol,
                 Nombre = model.Nombre,
                 Telefono = model.Telefono,
                 Correo = model.Correo,

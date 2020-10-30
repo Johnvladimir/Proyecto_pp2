@@ -16,7 +16,7 @@ namespace Sistema.Entidades.Registro
         public DateTime fecha { get; set; }
         public string Detalles_Estudios { get; set; }
         public string Detalles_Examenes { get; set; }
-        public string Receta { get; set; }
+        public string Recetas { get; set; }
         public string Costo_Cita { get; set; }
 
         [ForeignKey("idUsuario")]

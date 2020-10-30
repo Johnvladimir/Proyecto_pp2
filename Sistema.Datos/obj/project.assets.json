@@ -5014,11 +5014,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\Sistema.Datos.csproj",
+      "projectUniqueName": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\Sistema.Datos.csproj",
       "projectName": "Sistema.Datos",
-      "projectPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\Sistema.Datos.csproj",
+      "projectPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\Sistema.Datos.csproj",
       "packagesPath": "C:\\Users\\john2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\obj\\",
+      "outputPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5037,8 +5037,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\john2\\Desktop\\PP2\\Proyecto PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj": {
-              "projectPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj"
+            "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+              "projectPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj"
             }
           }
         }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj",
       "projectName": "Sistema.Entidades",
-      "projectPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj",
+      "projectPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj",
       "packagesPath": "C:\\Users\\john2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\obj\\",
+      "outputPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

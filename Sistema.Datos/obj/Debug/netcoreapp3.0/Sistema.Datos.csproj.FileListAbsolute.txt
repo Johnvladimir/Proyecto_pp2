@@ -11,3 +11,16 @@ C:\Users\john2\Desktop\PP2\Proyecto PP2\Proyecto_Asp.Net_Core\Sistema.Datos\obj\
 C:\Users\john2\Desktop\PP2\Proyecto PP2\Proyecto_Asp.Net_Core\Sistema.Datos\obj\Debug\netcoreapp3.0\Sistema.Datos.csproj.CopyComplete
 C:\Users\john2\Desktop\PP2\Proyecto PP2\Proyecto_Asp.Net_Core\Sistema.Datos\obj\Debug\netcoreapp3.0\Sistema.Datos.dll
 C:\Users\john2\Desktop\PP2\Proyecto PP2\Proyecto_Asp.Net_Core\Sistema.Datos\obj\Debug\netcoreapp3.0\Sistema.Datos.pdb
+C:\Users\john2\Desktop\PP2\Proyecto_PP2\Proyecto_Asp.Net_Core\Sistema.Datos\bin\Debug\netcoreapp3.0\Sistema.Datos.deps.json
+C:\Users\john2\Desktop\PP2\Proyecto_PP2\Proyecto_Asp.Net_Core\Sistema.Datos\bin\Debug\netcoreapp3.0\Sistema.Datos.runtimeconfig.json
+C:\Users\john2\Desktop\PP2\Proyecto_PP2\Proyecto_Asp.Net_Core\Sistema.Datos\bin\Debug\netcoreapp3.0\Sistema.Datos.runtimeconfig.dev.json
+C:\Users\john2\Desktop\PP2\Proyecto_PP2\Proyecto_Asp.Net_Core\Sistema.Datos\bin\Debug\netcoreapp3.0\Sistema.Datos.dll
+C:\Users\john2\Desktop\PP2\Proyecto_PP2\Proyecto_Asp.Net_Core\Sistema.Datos\bin\Debug\netcoreapp3.0\Sistema.Datos.pdb
+C:\Users\john2\Desktop\PP2\Proyecto_PP2\Proyecto_Asp.Net_Core\Sistema.Datos\bin\Debug\netcoreapp3.0\Sistema.Entidades.dll
+C:\Users\john2\Desktop\PP2\Proyecto_PP2\Proyecto_Asp.Net_Core\Sistema.Datos\bin\Debug\netcoreapp3.0\Sistema.Entidades.pdb
+C:\Users\john2\Desktop\PP2\Proyecto_PP2\Proyecto_Asp.Net_Core\Sistema.Datos\obj\Debug\netcoreapp3.0\Sistema.Datos.csprojAssemblyReference.cache
+C:\Users\john2\Desktop\PP2\Proyecto_PP2\Proyecto_Asp.Net_Core\Sistema.Datos\obj\Debug\netcoreapp3.0\Sistema.Datos.AssemblyInfoInputs.cache
+C:\Users\john2\Desktop\PP2\Proyecto_PP2\Proyecto_Asp.Net_Core\Sistema.Datos\obj\Debug\netcoreapp3.0\Sistema.Datos.AssemblyInfo.cs
+C:\Users\john2\Desktop\PP2\Proyecto_PP2\Proyecto_Asp.Net_Core\Sistema.Datos\obj\Debug\netcoreapp3.0\Sistema.Datos.csproj.CopyComplete
+C:\Users\john2\Desktop\PP2\Proyecto_PP2\Proyecto_Asp.Net_Core\Sistema.Datos\obj\Debug\netcoreapp3.0\Sistema.Datos.dll
+C:\Users\john2\Desktop\PP2\Proyecto_PP2\Proyecto_Asp.Net_Core\Sistema.Datos\obj\Debug\netcoreapp3.0\Sistema.Datos.pdb
