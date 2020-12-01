@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Sistema.Datos;
@@ -34,7 +33,7 @@ namespace Sistema.Web.Controllers
                 Nombre = c.Nombre,
                 Nombre_Medico= c.Nombre_Medico,
                 Nombre_Usuario = c.Nombre_Usuario,
-                fecha = c.fecha,
+                Fecha = c.Fecha,
                 Detalles_Estudios = c.Detalles_Estudios,
                 Detalles_Examenes = c.Detalles_Examenes,
                 Recetas = c.Recetas,
@@ -42,18 +41,27 @@ namespace Sistema.Web.Controllers
             });
         }
 
-        // GET: api/Expedientes/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Expediente>> GetExpediente(int id)
+        // GET: api/Expedientes/ListarId
+        [HttpGet("[action]/{id}")]
+        public async Task<IEnumerable<ExpedienteViewModel>> ListarId([FromRoute] int id)
         {
-            var expediente = await _context.Expedientes.FindAsync(id);
-
-            if (expediente == null)
+            var expediente = await _context.Expedientes
+                .Where(c => c.idUsuario == id)
+                .ToListAsync();
+            return expediente.Select(c => new ExpedienteViewModel
             {
-                return NotFound();
-            }
-
-            return expediente;
+                idExpediente = c.idExpediente,
+                idUsuario = c.idUsuario,
+                idMedico = c.idMedico,
+                Nombre = c.Nombre,
+                Nombre_Medico = c.Nombre_Medico,
+                Nombre_Usuario = c.Nombre_Usuario,
+                Fecha = c.Fecha,
+                Detalles_Estudios = c.Detalles_Estudios,
+                Detalles_Examenes = c.Detalles_Examenes,
+                Recetas = c.Recetas,
+                Costo_Cita = c.Costo_Cita
+            });
         }
 
         // PUT: api/Expedientes/Actualizar
@@ -76,10 +84,13 @@ namespace Sistema.Web.Controllers
                 return NotFound();
             }
 
+            expediente.idExpediente = model.idExpediente;
+            expediente.idMedico = model.idMedico;
+            expediente.idUsuario = model.idUsuario;
             expediente.Nombre = model.Nombre;
             expediente.Nombre_Medico = model.Nombre_Medico;
             expediente.Nombre_Usuario = model.Nombre_Usuario;
-            expediente.fecha = model.fecha;
+            expediente.Fecha = model.Fecha;
             expediente.Detalles_Estudios = model.Detalles_Estudios;
             expediente.Detalles_Examenes = model.Detalles_Examenes;
             expediente.Recetas = model.Recetas;
@@ -108,13 +119,12 @@ namespace Sistema.Web.Controllers
 
             Expediente expediente = new Expediente
             {
-                idExpediente = model.idExpediente,
                 idMedico = model.idMedico,
                 idUsuario = model.idUsuario,
                 Nombre = model.Nombre,
                 Nombre_Medico = model.Nombre_Medico,
                 Nombre_Usuario = model.Nombre_Usuario,
-                fecha = model.fecha,
+                Fecha = model.Fecha,
                 Detalles_Estudios = model.Detalles_Estudios,
                 Detalles_Examenes = model.Detalles_Examenes,
                 Recetas = model.Recetas,
@@ -134,6 +144,55 @@ namespace Sistema.Web.Controllers
             }
 
             return Ok();
+        }
+
+        //Un informe para administradores
+        // GET: api/Expedientes/Informe
+        [HttpGet("[action]/{fechaInicio}/{fechaFin}")]
+        public async Task<IEnumerable<InformeViewModel>> Informe([FromRoute] DateTime fechaInicio, DateTime fechaFin)
+        {
+            var cabinas = await _context.Expedientes
+                .Where(i => i.Fecha.HasValue && i.Fecha.Value.Date >= fechaInicio.Date)
+                .Where(i => i.Fecha.HasValue && i.Fecha.Value.Date <= fechaFin.Date)
+                .OrderBy(i => i.idExpediente)
+                .ToListAsync();
+
+            return cabinas.Select(c => new InformeViewModel
+            {
+                Nombre = c.Nombre,
+                Nombre_Medico = c.Nombre_Medico,
+                Nombre_Usuario = c.Nombre_Usuario,
+                Fecha = c.Fecha,
+                Detalles_Estudios = c.Detalles_Estudios,
+                Detalles_Examenes = c.Detalles_Examenes,
+                Recetas = c.Recetas,
+                Costo_Cita = c.Costo_Cita
+            });
+        }
+
+        //Un informe para usuario
+        // GET: api/Expedientes/InformeID
+        [HttpGet("[action]/{fechaInicio}/{fechaFin}/{id}")]
+        public async Task<IEnumerable<InformeViewModel>> InformeID([FromRoute] DateTime fechaInicio, DateTime fechaFin, int id)
+        {
+            var cabinas = await _context.Expedientes
+                .Where(i => i.idUsuario == id)
+                .Where(i => i.Fecha.HasValue && i.Fecha.Value.Date >= fechaInicio.Date)
+                .Where(i => i.Fecha.HasValue && i.Fecha.Value.Date <= fechaFin.Date)
+                .OrderBy(i => i.idExpediente)
+                .ToListAsync();
+
+            return cabinas.Select(c => new InformeViewModel
+            {
+                Nombre = c.Nombre,
+                Nombre_Medico = c.Nombre_Medico,
+                Nombre_Usuario = c.Nombre_Usuario,
+                Fecha = c.Fecha,
+                Detalles_Estudios = c.Detalles_Estudios,
+                Detalles_Examenes = c.Detalles_Examenes,
+                Recetas = c.Recetas,
+                Costo_Cita = c.Costo_Cita
+            });
         }
 
         // DELETE: api/Expedientes/5

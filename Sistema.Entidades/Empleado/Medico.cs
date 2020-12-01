@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Sistema.Entidades.GeoPortal;
 using Sistema.Entidades.Registro;
 
 namespace Sistema.Entidades.Empleado
@@ -13,5 +14,6 @@ namespace Sistema.Entidades.Empleado
         public string Profesion { get; set; }
 
         public virtual ICollection<Expediente> Expedientes { get; set; }
+        public virtual ICollection<Mapa> Mapas { get; set; }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\Sistema.Datos.csproj": {}
+    "C:\\Users\\john2\\Documents\\Ciclo2_2020\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\Sistema.Datos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\Sistema.Datos.csproj": {
+    "C:\\Users\\john2\\Documents\\Ciclo2_2020\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\Sistema.Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\Sistema.Datos.csproj",
+        "projectUniqueName": "C:\\Users\\john2\\Documents\\Ciclo2_2020\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\Sistema.Datos.csproj",
         "projectName": "Sistema.Datos",
-        "projectPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\Sistema.Datos.csproj",
+        "projectPath": "C:\\Users\\john2\\Documents\\Ciclo2_2020\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\Sistema.Datos.csproj",
         "packagesPath": "C:\\Users\\john2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\obj\\",
+        "outputPath": "C:\\Users\\john2\\Documents\\Ciclo2_2020\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Datos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,9 +29,10 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {
-              "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj": {
-                "projectPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj"
+              "C:\\Users\\john2\\Documents\\Ciclo2_2020\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+                "projectPath": "C:\\Users\\john2\\Documents\\Ciclo2_2020\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj"
               }
             }
           }
@@ -44,6 +45,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -74,6 +76,14 @@
             {
               "name": "Microsoft.AspNetCore.App.Ref",
               "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -84,18 +94,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+    "C:\\Users\\john2\\Documents\\Ciclo2_2020\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\john2\\Documents\\Ciclo2_2020\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj",
         "projectName": "Sistema.Entidades",
-        "projectPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj",
+        "projectPath": "C:\\Users\\john2\\Documents\\Ciclo2_2020\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj",
         "packagesPath": "C:\\Users\\john2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\john2\\Desktop\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\obj\\",
+        "outputPath": "C:\\Users\\john2\\Documents\\Ciclo2_2020\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -113,6 +123,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -124,6 +135,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "imports": [
             "net461",
             "net462",
@@ -138,6 +150,14 @@
             {
               "name": "Microsoft.AspNetCore.App.Ref",
               "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -145,7 +165,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

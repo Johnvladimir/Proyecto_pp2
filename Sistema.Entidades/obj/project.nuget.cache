@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cg94aTZXrzC0LpHCviCMCle6N0sGh6O889jPkg/Jt8Lg0r0nR/uKs2zq/GZXSz8QKp/RWm/ttSVqdVGWQ5E9qQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\john2\\Documents\\Ciclo2_2020\\PP2\\Proyecto_PP2\\Proyecto_Asp.Net_Core\\Sistema.Entidades\\Sistema.Entidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\john2\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\john2\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\john2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

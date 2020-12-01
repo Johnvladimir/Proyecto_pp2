@@ -12,6 +12,9 @@ namespace Sistema.Entidades.Usuarios
         public string Telefono { get; set; }
         public string Correo { get; set; }
         public string Direccion { get; set; }
+        public byte[] password_hash { get; set; }
+        public byte[] password_salt { get; set; }
+        public bool Condicion { get; set; }
 
         [ForeignKey("idRol")]
         public virtual Rol Rol { get; set; }
